@@ -29,7 +29,7 @@ var WikiquoteApi = (function() {
           // api can return invalid recrods, these are marked as "missing"
           if(!("missing" in page)) {
             pageId = page.pageid;
-            break;
+            break; #why?
           }
         }
         if(pageId > 0) {
